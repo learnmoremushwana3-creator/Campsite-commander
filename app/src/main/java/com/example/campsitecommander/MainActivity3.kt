@@ -21,6 +21,13 @@ class MainActivity3 : AppCompatActivity() {
                 val intent = intent(this, MainActivity2::class.java)
                 startActivity(intent)
 
+                val item name = arrayOf(
+                    "Tent"
+                    "Marshmellows"
+                    "Flashlight"
+                )
+
+
         }
     }
 }
