@@ -19,7 +19,7 @@ class MainActivity2 : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
 
-            val Button = findViewById<button>(R.id.add.xml)
+            val Button = findViewById<button>(R.id.add_xml)
             button.setonClickListener(new View.OnclickListener()){
                @ovverride
                public void OnClickview(View v){
@@ -58,6 +58,13 @@ class MainActivity2 : AppCompatActivity() {
                     "Check batteries "
                 )
 
+            }
+            val inputNumber = findViewById<Edittext>(R.id.etNumbers)
+            val btncalculators = findViewById<button>(R.id.add_xml)
+
+            var sum = 0
+            for (num in numbers){
+                sum += num
             }
 
         }
